@@ -4,8 +4,19 @@
 }
 
 header{
-    background: rgb(59, 59, 59);
+    background: rgb(144, 144, 144);
+    display: flex;
+    text-align: center;
 }
-header nav a{
-    margin: 30px;
+
+header a{
+    background: rgb(144, 144, 144);
+    padding: 30px;
+    text-decoration: none;
+    color: black;
+}
+header a:hover{
+    background: rgb(118, 118, 118);
+    color: white;
+
 }
